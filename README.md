@@ -1,10 +1,32 @@
+# Getting Started with Spring Boot
+
+You'll need to install the [jdk](https://www.oracle.com/java/technologies/downloads) and [maven](https://maven.apache.org/download.cgi)
+
+Inside the server repository, use :
+
+### `mvn install`
+
+Compile, build and install the build result. It will generate a java archive.
+
+### `mvn clean install`
+
+To ensure that the build target is removed before a new build.
+
+### `java -jar ./target/test-0.0.1-SNAPSHOT.jar`
+
+To run the server.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You'll need to install [NodeJS](https://nodejs.dev/download) and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/)to run the web app.
+
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you should run first `yarn` to install all the packages specified by the file `package.json`.
+
+Now you can also run:
 
 ### `yarn start`
 
